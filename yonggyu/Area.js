@@ -170,45 +170,15 @@ const validateNumericParam = (param, paramName = 'param') => {
   }
 }
 
-// export {
-//   surfaceAreaCube,
-//   surfaceAreaSphere,
-//   areaRectangle,
-//   areaSquare,
-//   areaTriangle,
-//   areaParallelogram,
-//   areaTrapezium,
-//   areaCircle,
-//   areaRhombus,
-//   areaTriangleWithAllThreeSides
-// }
-console.log("정육면체 겉넓이 예제: 6*side **2")
-console.log("입력은 하나, 9")
-console.log(surfaceAreaCube(9))
-console.log("구 겉넓이 예제:  return 4.0 * Math.PI * radius ** 2.0")
-console.log("입력은 하나, 9")
-console.log(surfaceAreaSphere(9))
-console.log("사각형 넓이 예제:   return width * length")
-console.log("입력은 둘, 9,9")
-console.log(areaRectangle(9,9))
-console.log("정사각형 넓이 예제: return side ** 2")
-console.log("입력은 하나,9")
-console.log(areaSquare(9))
-console.log("정삼각형 넓이 예제: return (base * height) / 2.0 ")
-console.log("입력은 둘, 9,9")
-console.log(areaTriangle(9,9))
-console.log("삼각형 넓이 예제:  const semi = (side1 + side2 + side3) / 2 ")
-console.log("입력은 셋, 9,9,9")
-console.log(areaTriangleWithAllThreeSides(9,9,9))
-console.log("평행사변형 넓이 예제: return base * height")
-console.log("입력은 둘, 9,9")
-console.log(areaParallelogram(9,9))
-console.log("사다리꼴 겉넓이 예제: return (1 / 2) * (base1 + base2) * height")
-console.log("입력은 셋, 9,9,9")
-console.log(areaTrapezium(9,9,9))
-console.log("원 넓이 예제: return Math.PI * radius ** 2")
-console.log("입력은 하나, 9")
-console.log(areaCircle(9))
-console.log("마름모 넓이 예제:  return (1 / 2) * diagonal1 * diagonal2")
-console.log("입력은 둘, 9,9")
-console.log(areaRhombus(9,9))
+export {
+  surfaceAreaCube,
+  surfaceAreaSphere,
+  areaRectangle,
+  areaSquare,
+  areaTriangle,
+  areaParallelogram,
+  areaTrapezium,
+  areaCircle,
+  areaRhombus,
+  areaTriangleWithAllThreeSides
+}
