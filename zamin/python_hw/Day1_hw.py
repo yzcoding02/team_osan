@@ -1,0 +1,12 @@
+grape=10
+banana=20
+print(banana+grape)
+print(banana-grape)
+print(banana*grape)
+print(banana%grape)
+print(banana/grape)
+print(2**2)
+print(3**3)
+print(10/3)
+print(10%3)
+print(banana//grape)
