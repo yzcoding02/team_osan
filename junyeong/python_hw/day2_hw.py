@@ -64,4 +64,5 @@ for i in range(10,31):
     if i%9==0:
         mul*=i
 print(mul)
+ㅋ
 
