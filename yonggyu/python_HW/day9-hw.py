@@ -1,0 +1,79 @@
+import matplotlib.pyplot as plt
+x=[]
+x2=[]
+x3=[]
+x4=[]
+x5=[]
+x6=[]
+x7=[]
+x8=[]
+x9=[]
+x10=[]
+x11=[]
+x12=[]
+x13=[]
+y=[]
+y2=[]
+y3=[]
+y4=[]
+y5=[]
+y6=[]
+y7=[]
+y8=[]
+y9=[]
+y10=[]
+y11=[]
+y12=[]
+y13=[]
+y14=[]
+for i in range(-10,11):
+    x.append(i)
+    y.append(-i)
+    y2.append(i)
+for i in range(-10,11):
+    x2.append(i)
+    y3.append(i**2)
+    x3.append(i)
+    y4.append(-i**2)
+for i in range(-10,11):
+    x4.append(i)
+    y5.append(i**3)
+    x5.append(i)
+    y6.append(-i**3)
+fruits=["apple","orange","cherry"]
+number=[7,10,8]
+city=["tokyo","Newyork","Manchaster"]
+count=[70,80,60]
+for i in range(-10,11):
+    x6.append(i)
+    y7.append(i+5)
+    x7.append(i)
+    y8.append(-i+5)
+    x8.append(i)
+    y9.append(i-5)
+    x9.append(i)
+    y10.append(-i-5)
+fruits=["cherry","orange","apple"]
+arabia=[40,80,50]
+alpha=["L","N","S"]
+beta=[30,40,70]
+for i in range(-10,11):
+    x10.append(i)
+    y11.append(3)
+    x11.append(i)
+    y12.append(-3)
+    x12.append(i)
+    y13.append(i+5)
+    x13.append(-i)
+    y14.append(i+5)
+figure,axes=plt.subplots(3,3)
+axes[0,0].plot(x,y,x,y2)
+axes[0,1].plot(x2,y3,x3,y4)
+axes[0,2].plot(x4,y5,x5,y6)
+axes[1,0].bar(fruits,number)
+axes[1,1].bar(city,count)
+axes[1,2].plot(x6,y7,x7,y8,x8,y9,x9,y10)
+axes[2,0].barh(fruits,arabia)
+axes[2,1].barh(alpha,beta)
+axes[2,2].plot(x10,y11,x11,y12,x12,y13,x13,y14)
+plt.show()
