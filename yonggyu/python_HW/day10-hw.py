@@ -4,4 +4,4 @@ for i in range(0,10):
     if fruit in fruits:
         print(f"wir sind haben {fruit}, {fruits[fruit]} bleiben")    
     else :
-        print(f"Entschuldigen Sie, Sir, aber in unserem Shop finden Sie{fruit}, Es ist nicht mehr da. Bitte kommen Sie nächstes Mal wieder.")
+        print(f"Entschuldigen Sie, Sir, aber in unserem Shop finden Sie{fruit}, Es ist nicht mehr da. Bitte kommen Sie nächstes Mal wieder🙏.")
